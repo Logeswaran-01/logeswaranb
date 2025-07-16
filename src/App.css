@@ -1,0 +1,200 @@
+body{
+  background-image: url(assets/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 50%;
+  
+}
+
+
+
+
+.name{
+  color: #cccccc;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 45px;
+  font-family: "Stardos Stencil", system-ui;
+  letter-spacing: 2px;
+}
+
+.whole{
+  z-index: 100;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100px;
+  opacity: 1;
+  backdrop-filter: blur(15px);
+
+  display: flex;
+  justify-content: space-between;
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 5px;
+}
+
+.link{
+  text-decoration: none;
+  color: #cccccc;
+  padding: 20px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  font-size: 27px;
+  position: relative;
+
+}
+
+.link::after{
+   content: '';
+   position: absolute;
+   left: 0;
+   bottom: -1px;
+   width: 0;
+   background-color: #cccccc;
+   height: 3px;
+   transition: width 0.5s ease-in-out;
+  }
+
+.link:hover::after{
+  width: 100%;
+}
+
+
+.nav_bar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.link-active{
+  text-decoration: none;
+ background: linear-gradient(to right, #ff6a00, #ee0979);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 20px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  font-size: 30px;
+  position: relative;
+}
+
+@media screen and (max-width:600px) {
+  .name{
+    font-size: 35px;
+    margin-top: 5px;
+    letter-spacing: 4px;
+    padding-top: 30px;
+   }
+  .menu_toggle{
+    color: #cccccc;
+    margin-right: 50px;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    align-items: center;
+    background: none;
+    border: none;
+    transition: transform 0.7s ease-in-out;
+  }
+
+  .menu_toggle:hover{
+    transform: translateY(-5px);
+   
+    
+  }
+  
+  .mobile-menu{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom right, #00111f, #002b45, #000c1f);
+    z-index: 999;
+    opacity: 1;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    transform:  0.5 ease-in-out; 
+    top: 0;
+    left: 0;
+  }
+
+
+
+  .mobile-menu button{
+    font-size: 50px;
+    display: flex;
+    color: #cccccc;
+    justify-content: end;
+    margin-right: 25px;
+    background: none;
+    border: none;
+  }
+  .mobile-menu nav{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    text-decoration: none;
+    gap: 20px;
+    padding-top: 30px;
+    
+  }
+
+  .links{
+  text-decoration: none;
+  color: #cccccc;
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  
+  position: relative;
+
+}
+
+ .link-actives{
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+   background: linear-gradient(to right, #ff6a00, #ee0979);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 29px;
+  position: relative;
+
+}
+
+  .links::after{
+   content: '';
+   position: absolute;
+   left: 0;
+   bottom: -1px;
+   width: 0;
+   background-color: #cccccc;
+   height: 3px;
+   transition: width 0.5s ease-in-out;
+  }
+
+.links:hover::after{
+  width: 40%;
+}
+  
+  
+
+
+}
+
+@media screen and (min-width:601px) {
+  .menu_toggle{
+    display: none;
+  }
+}
+
+
+

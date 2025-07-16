@@ -126,6 +126,9 @@ body{
     left: 0;
   }
 
+  *{
+    overflow-x: hidden;
+  }
 
 
   .mobile-menu button{

@@ -320,240 +320,151 @@ transition: transform 0.7s ease-in-out;
 
 @media screen and (max-width: 600px) {
 
-  /* General Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  overflow-x: hidden;
-  font-family: 'Poppins', sans-serif;
-}
+  @media screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
 
-/* Home Section */
-.home {
-  margin-top: 100px;
-  width: 100%;
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 25px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  border-radius: 10px;
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(10px);
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 20px 30px;
-  text-align: center;
-}
+  .home,
+  .section,
+  .section-3 {
+    margin-top: 100px;
+    width: 90%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 20px 30px;
+    text-align: center;
+  }
 
-.home h1,
-.home h3 {
-  font-size: 22px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
+  .home h1,
+  .home h3,
+  .home p,
+  .section h1,
+  .section-3-div h1,
+  .section-3-div h3,
+  .section-3-para {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    word-break: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+    padding: 0 10px;
+  }
 
-.home p {
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 24px;
-  padding: 0 20px;
-  word-spacing: 2px;
-  white-space: normal;
-}
+  .gradient-text,
+  .section-3-div h1,
+  .section-3-div h3,
+  .section-3-para {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 
-/* Gradient Text */
-.gradient-text {
-  background: linear-gradient(to right, #00c6ff, #0072ff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+  .home button,
+  .section-3 button,
+  .button1,
+  .button2 {
+    width: 80%;
+    font-size: 16px;
+    padding: 10px;
+    margin: 15px auto;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(to right, #0072ff, #00c6ff);
+    color: #000;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
 
-/* Home Button */
-.home button {
-  width: 80%;
-  font-size: 16px;
-  padding: 10px;
-  margin: 15px auto;
-  border: none;
-  border-radius: 20px;
-  background: linear-gradient(to right, #0072ff, #00c6ff);
-  color: #000;
-  font-weight: bold;
-  transition: transform 0.3s ease-in-out;
-}
+  .home button:hover,
+  .section-3 button:hover,
+  .button1:hover,
+  .button2:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+  }
 
-.home button:hover {
-  transform: scale(1.05);
-  background: linear-gradient(to right, #00c6ff, #0072ff);
-}
+  .git-in {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
 
-/* Section */
-.section {
-  margin-top: 100px;
-  width: 100%;
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 25px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  border-radius: 10px;
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(10px);
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 20px 30px;
-  text-align: center;
-}
+  .git-in button {
+    font-size: 22px;
+    padding: 10px;
+    background: linear-gradient(to right, hsl(0, 0%, 30%), hsl(281, 94%, 90%));
+    border: none;
+    border-radius: 50%;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px;
+    transition: transform 0.3s ease-in-out;
+  }
 
-.section h1 {
-  font-size: 22px;
-  font-weight: bold;
-}
+  .git-in button:hover {
+    transform: scale(1.1);
+    background: linear-gradient(to right, hsl(281, 94%, 90%), hsl(0, 0%, 30%));
+  }
 
-/* Resume Buttons */
-.button1,
-.button2 {
-  width: 80%;
-  font-size: 16px;
-  padding: 10px;
-  margin: 15px auto;
-  border: none;
-  border-radius: 20px;
-  background: linear-gradient(to right, #4e54c8, #8f94fb);
-  color: #000;
-  font-weight: bold;
-  transition: transform 0.3s ease-in-out;
-}
+  .about_me {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 80%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 20px 30px;
+    transition: transform 0.3s ease-in-out;
+    color: white;
+  }
 
-.button1:hover,
-.button2:hover {
-  transform: scale(1.05);
-  background: linear-gradient(to right, #8f94fb, #4e54c8);
-}
+  .about_me:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, #2a5298, #1e3c72);
+  }
 
-/* Git/LinkedIn Icons */
-.git-in {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
-}
+  .download {
+    width: 60%;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+    border-radius: 50%;
+  }
 
-.git-in button {
-  font-size: 20px;
-  padding: 12px;
-  border-radius: 50%;
-  border: none;
-  background: linear-gradient(to right, hsl(0, 0%, 30%), hsl(281, 94%, 90%));
-  color: white;
-  transition: transform 0.3s ease-in-out;
-}
+  .footer {
+    margin-top: 50px;
+    padding: 1rem;
+    text-align: center;
+    font-size: 14px;
+    background: linear-gradient(to top, #0a0f2c, #1f1c2c);
+    color: #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-.git-in button:hover {
-  transform: scale(1.1);
-  background: linear-gradient(to right, hsl(281, 94%, 90%), hsl(0, 0%, 30%));
-}
-
-/* Section 3 */
-.section-3 {
-  margin-top: 100px;
-  width: 100%;
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 25px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  border-radius: 10px;
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(10px);
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 20px 30px;
-}
-
-.section-3-div h1,
-.section-3-div h3 {
-  font-size: 22px;
-  text-align: center;
-  font-weight: bold;
-}
-
-.section-3-para {
-  font-size: 16px;
-  text-align: center;
-  font-weight: 600;
-  line-height: 24px;
-  padding: 0 10px;
-  background: linear-gradient(to right, #cccccc, #ff9cf5);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-/* More About Me Button */
-.section-3 button {
-  width: 80%;
-  font-size: 16px;
-  padding: 10px;
-  margin: 15px auto;
-  border: none;
-  border-radius: 20px;
-  background: linear-gradient(135deg, #ff6ec7, #ffb8f5);
-  color: #000;
-  font-weight: bold;
-  transition: transform 0.3s ease-in-out;
-}
-
-.section-3 button:hover {
-  transform: scale(1.05);
-  background: linear-gradient(135deg, #ffb8f5, #ff6ec7);
-}
-
-/* About Me Button */
-.about_me {
-  background: linear-gradient(to right, #1e3c72, #2a5298);
-  padding: 10px;
-  margin: 20px auto;
-  border-radius: 25px;
-  font-size: 18px;
-  font-weight: bold;
-  width: 80%;
-  text-align: center;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 20px 30px;
-  transition: transform 0.3s ease-in-out;
-}
-
-.about_me:hover {
-  transform: scale(1.05);
-  background: linear-gradient(to right, #2a5298, #1e3c72);
-}
-
-/* Profile Image */
-.download {
-  width: 60%;
-  height: auto;
-  margin: 20px auto;
-  display: block;
-  border-radius: 50%;
-}
-
-/* Footer */
-.footer {
-  position: relative;
-  padding: 1rem;
-  text-align: center;
-  font-size: 14px;
-  color: #ccc;
-  background: linear-gradient(to top, #0a0f2c, #1f1c2c);
-}
-
-.logo-img {
-  width: 100%;
-  max-width: 200px;
-  margin: 0 auto;
-  display: block;
+  .logo-img {
+    width: 100%;
+    max-width: 180px;
+    margin-top: 10px;
+  }
 }
 
 }

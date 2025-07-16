@@ -333,6 +333,7 @@ transition: transform 0.7s ease-in-out;
 .home {
   margin-top: 100px;
   width: 100%;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
   padding: 25px;
@@ -393,6 +394,7 @@ transition: transform 0.7s ease-in-out;
 .section {
   margin-top: 100px;
   width: 100%;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
   padding: 25px;
@@ -459,7 +461,7 @@ transition: transform 0.7s ease-in-out;
 .section-3 {
   margin-top: 100px;
   width: 100%;
-
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
   padding: 25px;

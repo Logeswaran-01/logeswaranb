@@ -332,7 +332,7 @@ transition: transform 0.7s ease-in-out;
   .section,
   .section-3 {
     margin-top: 100px;
-    width: 90%;
+    width: 100vh;
     max-width: 100vh;
     margin-left: auto;
     margin-right: auto;

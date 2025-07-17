@@ -340,6 +340,7 @@ transition: transform 0.7s ease-in-out;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 10px;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.05);
@@ -531,8 +532,10 @@ transition: transform 0.7s ease-in-out;
 
   .download {
     width: 30vh;
-    height: 30vh;
-    margin: 20px auto;
+    height: 40vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 80px;
     display: block;
     border-radius: 50%;
   }
@@ -540,18 +543,18 @@ transition: transform 0.7s ease-in-out;
   .footer {
   background: linear-gradient(to top, #0a0f2c, #1f1c2c);
   color: #ccc;
-  padding: 1rem;
+  padding: 5px;
   text-align: center;
   font-family: 'Poppins', sans-serif;
-  width: 80%;
-  height: 30vh;
+  width: 55vh;
+  height: 20vh;
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .logo-img{
-  width: 20%;
+  width: 50%;
 }
 
 

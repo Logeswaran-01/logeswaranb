@@ -138,13 +138,13 @@ function Home() {
         
          <img src={download} className='download' alt="logeswaran" data-aos="flip-left" data-aos-easing='ease-in-out' data-aos-mirror='true'/> 
       </section>
-       <div className='footer'>
+       
+     </div>
+      <div className='footer'>
         <h2>Made with 💜 By</h2>
-        <img src={logo} className='logo-img' alt="" />
+        <img src={logo} className='logo-img' alt=""  />
 
       </div>
-     </div>
-      
 
      
 

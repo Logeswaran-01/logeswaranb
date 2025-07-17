@@ -106,7 +106,7 @@ function Home() {
          <div className='resume-in'>
              <div className='resume'>
             <a href="https://res.cloudinary.com/dbrmvywb0/image/upload/v1752400551/pybep1vjj8wcfxle7fbt.pdf"><button className='button1'>Resume</button></a>
-            <a href="https://logeswaran-tau.vercel.app/#/contact"><button className='button2'>Contact Me</button></a>
+            <button className='button2' Link to='/contact'>Contact Me</button>
          </div>
          
          <div className='git-in'>

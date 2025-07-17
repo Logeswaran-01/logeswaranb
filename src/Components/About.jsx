@@ -86,7 +86,7 @@ function About() {
           Let’s talk 💬. Let’s build 🤖. Let’s create something unforgettable together 🌠.
         </p>
         <p>🚀 Ready to see what I'm made of?</p>
-       <button className='about-skills' Link to='/skills'>Click Here</button>
+        <a href="https://logeswaran-tau.vercel.app/#/skills"><button className='about-skills'>Click Here</button></a>
       </div>
 
       <div className='foot5' >

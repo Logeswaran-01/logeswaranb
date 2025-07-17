@@ -325,7 +325,7 @@ transition: transform 0.7s ease-in-out;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
+   
   }
 
   .home,
@@ -333,7 +333,7 @@ transition: transform 0.7s ease-in-out;
   .section-3 {
     margin-top: 100px;
     width: 100vh;
-    max-width: 100vh;
+    max-width: 70vh;
     margin-left: auto;
     margin-right: auto;
     padding: 25px;

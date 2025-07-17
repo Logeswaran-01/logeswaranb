@@ -140,7 +140,7 @@ function Home() {
       </section>
        <div className='footer'>
         <h2>Made with 💜 By</h2>
-        <img src={logo} className='logo-img' alt="" data-aos="zoom-in" data-aos-easing='ease-in-out' data-aos-mirror='true'/>
+        <img src={logo} className='logo-img' alt="" />
 
       </div>
      </div>

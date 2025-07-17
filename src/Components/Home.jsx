@@ -133,7 +133,7 @@ function Home() {
             <p>You've made it to the end of my homepage — but the real story starts now! 🎉🚀I’m Logeswaran — a passionate tech explorer, creative thinker, and lifelong learner 💻✨From building web apps to solving real-world problems, I love turning ideas into reality 🌍💡Curious to know what drives me, what I’ve built, and what’s next? Tap below and let’s go! 🔍🔥</p>
             
           </div>
-          <button Link to='/about'>More About Me</button>
+          <a href="https://logeswaran-tau.vercel.app/#/about"><button>More About Me</button></a>
         </div>
         </div>
         

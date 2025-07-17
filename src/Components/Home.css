@@ -333,7 +333,7 @@ transition: transform 0.7s ease-in-out;
   .section-3 {
     margin-top: 100px;
     width: 90%;
-    max-width: 1400px;
+    max-width: 100vh;
     margin-left: auto;
     margin-right: auto;
     padding: 25px;

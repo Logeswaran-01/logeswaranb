@@ -86,7 +86,7 @@ function About() {
           Let’s talk 💬. Let’s build 🤖. Let’s create something unforgettable together 🌠.
         </p>
         <p>🚀 Ready to see what I'm made of?</p>
-        <a href="/skills"><button className='about-skills'>Click Here</button></a>
+       <button className='about-skills' Link to='/skills'>Click Here</button>
       </div>
 
       <div className='foot5' >

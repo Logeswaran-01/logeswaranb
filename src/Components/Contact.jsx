@@ -62,7 +62,7 @@ function Contact(){
    <br /><br /><br />
     <div className='foo'>
                 <h2>Made with 💜 By</h2>
-                <img src={logo} className='logo-imgten' data-aos='zoom-in' data-aos-easing='ease-in-out' data-aos-mirror='true' data-aos-delay='500' alt="" />
+                <img src={logo} className='logo-imgten'  alt="" />
         
               </div>
         

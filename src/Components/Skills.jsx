@@ -151,7 +151,7 @@ function Skills(){
     <br /><br /><br /><span className='br'><br /><br /><br /><br /><br /><br /></span>
     <div className='foot2' >
             <h2>Made with 💜 By</h2>
-            <img src={logo} className='logo-img1' alt="" data-aos='zoom-in' data-aos-easing='ease-in-out' data-aos-mirror='true' />
+            <img src={logo} className='logo-img1' alt="" />
     
           </div>
     

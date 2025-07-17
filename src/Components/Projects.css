@@ -30,8 +30,10 @@
   padding: 1rem;
   text-align: center;
   font-family: 'Poppins', sans-serif;
-  width: 100%;
+  width: 55vh !important;
+  height: 20vh;
   position: absolute;
+  margin-top: 60rem !important;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,9 +43,9 @@
 }
 
 .wholeflick{
-  width: 100%;
-  margin-top: 1rem;
-  height: 100%;
+  width: 50vh;
+  margin-top: 2rem;
+
   position: absolute;
   
   perspective: 1000px;
@@ -53,9 +55,9 @@
 
 .typed-text{
     margin-top: 10rem;
-    padding-left: 140px;
-    font-size: 26px;
-    width: 100vh;
+    padding-left: 50px;
+    font-size: 27px;
+    width: 50vh;
     font-weight: bold;
     background: linear-gradient(90deg, #ff6ec4, #7873f5);
    -webkit-background-clip: text;
@@ -96,20 +98,21 @@
 
 .greater{
     border: none;
-    font-size: 30px;
+    font-size: 25px;
     border-radius: 100%;
-    padding: 10px;
+   padding: 7px;
     width: 50px;
+    height: 9vh;
     background: linear-gradient(135deg, #ff6ec7, #ffb8f5);
     
 }
 
 .view{
     border: none;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     padding: 7px;
-    width: 100px;
+    width: 70px;
     transition: transform 0.7s ease-in-out;
    border-radius: 15px;
     background: linear-gradient(135deg, #ff6ec7, #ffb8f5);
@@ -136,7 +139,7 @@
    background: linear-gradient(90deg, #ff6ec4, #7873f5);
 -webkit-background-clip: text;
 font-weight: bold;
-
+font-size: 25px;
 -webkit-text-fill-color: transparent;
 }
 
@@ -147,6 +150,7 @@ font-weight: bold;
 font-weight: bold;
 padding-left: 1rem;
 padding-bottom: 1rem;
+font-size: 20px;
 
 }
 
@@ -167,7 +171,7 @@ padding-bottom: 1rem;
    background: linear-gradient(90deg, #ff6ec4, #7873f5);
 -webkit-background-clip: text;
 font-weight: bold;
-
+font-size: 25px;
 -webkit-text-fill-color: transparent;
 }
 
@@ -177,12 +181,22 @@ font-weight: bold;
 -webkit-text-fill-color: transparent;
 font-weight: bold;
 padding-left: 1rem;
+font-size: 20px;
 padding-bottom: 1rem;
 
 }
 .five{
-    margin-top: 10rem !important;
+    margin-top: 30rem !important ;
     
+   }
+
+   .ten{
+    margin-top: 30rem !important ;
+    
+   }
+
+   .fity{
+    margin-top: 30rem !important ;
    }
 
 

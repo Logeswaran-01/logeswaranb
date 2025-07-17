@@ -91,7 +91,7 @@ function About() {
 
       <div className='foot5' >
         <h2>Made with 💜 By</h2>
-        <img src={logo} className='logo-image' alt="logo" data-aos='zoom-in' data-aos-easing='ease-in-out' data-aos-mirror='true' />
+        <img src={logo} className='logo-image' alt="logo"  />
       </div>
     </>
   );

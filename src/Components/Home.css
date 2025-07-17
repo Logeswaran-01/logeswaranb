@@ -446,9 +446,7 @@ transition: transform 0.7s ease-in-out;
 
   
 
-  .home button,
-  .button1,
-  .button2 {
+  .home button{
     width: 80%;
     font-size: 16px;
     padding: 10px;
@@ -460,6 +458,42 @@ transition: transform 0.7s ease-in-out;
     font-weight: bold;
     transition: transform 0.7s ease-in-out;
     cursor: pointer;
+
+  }
+
+  .home button:hover{
+    transform:scale(1.1);
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+  }
+
+   .button1 {
+    width: 80%;
+    font-size: 16px;
+    padding: 10px;
+    margin: 15px auto;
+    border: none;
+    border-radius: 20px;
+    
+    color: #000;
+    font-weight: bold;
+    transition: transform 0.7s ease-in-out;
+    cursor: pointer;
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+  }
+
+  .button2 {
+    width: 80%;
+    font-size: 16px;
+    padding: 10px;
+    margin: 15px auto;
+    border: none;
+    border-radius: 20px;
+    
+    color: #000;
+    font-weight: bold;
+    transition: transform 0.7s ease-in-out;
+    cursor: pointer;
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
   }
 
   .section-3 button{
@@ -476,12 +510,12 @@ transition: transform 0.7s ease-in-out;
     background: linear-gradient(135deg, #ff6ec7, #ffb8f5);
   }
 
-  .home button:hover,
+  
  
   .button1:hover,
   .button2:hover {
     transform: scale(1.05);
-    background: linear-gradient(to right, #00c6ff, #0072ff);
+    background: linear-gradient(to right, #8f94fb, #4e54c8);
   }
 
    .section-3 button:hover{

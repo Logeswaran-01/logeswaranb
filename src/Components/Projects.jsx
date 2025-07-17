@@ -140,7 +140,7 @@ function Projects(){
      
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 <div >
-  <div className={`wholeflick ${mobileToggle2? 'flip':''}`} onClick={mobile3} >
+  <div className={`wholeflick ${mobileToggle2? 'flip':''} ten`} onClick={mobile3} >
         <div className='flip-inner'>
            <div className="flip-front">
             <h1>Weather Detector</h1>
@@ -160,7 +160,7 @@ function Projects(){
      
             <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
             <div >
-            <div className={`wholeflick ${mobileToggle3? 'flip':''}`} onClick={mobile4} >
+            <div className={`wholeflick ${mobileToggle3? 'flip':''} fity`} onClick={mobile4} >
         <div className='flip-inner'>
            <div className="flip-front">
             <h1>To-Do List</h1>
@@ -182,7 +182,7 @@ function Projects(){
              
      <div className='foo' >
              <h2>Made with 💜 By</h2>
-             <img src={logo} className='log' data-aos='zoom-in' data-aos-easing='ease-in-out' data-aos-mirror='true' data-aos-delay='500' alt="" />
+             <img src={logo} className='log' alt="" />
      
     </div>
             

@@ -318,22 +318,21 @@ transition: transform 0.7s ease-in-out;
   backdrop-filter: blur(10px); 
 }
 
-@media screen and (max-width: 600px) {
 
-  
+
+ @media screen and (max-width: 600px) {
+
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
   }
 
   .home,
   .section,
   .section-3 {
     margin-top: 100px;
-    width: 100%;
-    max-width: 90%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     padding: 25px;
@@ -359,11 +358,19 @@ transition: transform 0.7s ease-in-out;
     font-weight: bold;
     line-height: 1.5;
     word-break: break-word;
-    word-wrap: break-word;
     white-space: normal;
     padding: 0 10px;
   }
 
+  /* Typed.js text fix */
+  .typed-element {
+    font-size: 20px;
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    display: inline;
+    text-align: center;
+  }
 
   .gradient-text,
   .section-3-div h1,
@@ -429,7 +436,7 @@ transition: transform 0.7s ease-in-out;
     border-radius: 25px;
     font-size: 18px;
     font-weight: bold;
-    width: 80%;
+    width: 90%;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 20px 30px;
     transition: transform 0.3s ease-in-out;
@@ -464,8 +471,10 @@ transition: transform 0.7s ease-in-out;
   .logo-img {
     width: 100%;
     max-width: 180px;
+    height: auto;
     margin-top: 10px;
-  }
+  
+}
 
 
 }

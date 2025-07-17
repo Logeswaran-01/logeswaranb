@@ -112,7 +112,7 @@ function Projects(){
            <div className="flip-back">
             <h1>Style Grove</h1>
             <p>An E-Commerce Website Built With JavaScript</p>
-            <a href="https://style-grove-4tt5.vercel.app/"><button className='view'>View</button></a>
+            <a href="https://style-grove-loges.vercel.app/"><button className='view'>View</button></a>
            </div>
         
 

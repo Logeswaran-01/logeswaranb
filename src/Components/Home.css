@@ -530,8 +530,8 @@ transition: transform 0.7s ease-in-out;
   }
 
   .download {
-    width: 50vh;
-    height: 50vh;
+    width: 30vh;
+    height: 30vh;
     margin: 20px auto;
     display: block;
     border-radius: 50%;
@@ -543,14 +543,14 @@ transition: transform 0.7s ease-in-out;
   padding: 1rem;
   text-align: center;
   font-family: 'Poppins', sans-serif;
-  width: 50vh;
+  width: 20vh;
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .logo-img1{
-  width: 50%;
+  width: 20%;
 }
 
 

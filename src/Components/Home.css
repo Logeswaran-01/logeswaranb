@@ -201,11 +201,11 @@ margin-left: 200px;
 }
 
  .download{
-  width: 40%;
-  height: 40%;
+  width: 50%;
+  height: 50%;
   border-radius: 50%;
   position: relative;
-  text-align: end;
+  text-align: center;
   margin-left: 60rem;
  
 } 
@@ -445,7 +445,6 @@ transition: transform 0.7s ease-in-out;
   
 
   .home button,
-  .section-3 button,
   .button1,
   .button2 {
     width: 80%;
@@ -457,17 +456,36 @@ transition: transform 0.7s ease-in-out;
     background: linear-gradient(to right, #0072ff, #00c6ff);
     color: #000;
     font-weight: bold;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.7s ease-in-out;
     cursor: pointer;
   }
 
+  .section-3 button{
+    width: 80%;
+    font-size: 16px;
+    padding: 10px;
+    margin: 15px auto;
+    color: #000;
+    font-weight: bold;
+    transition: transform 0.7s ease-in-out;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #ff6ec7, #ffb8f5);
+  }
+
   .home button:hover,
-  .section-3 button:hover,
+ 
   .button1:hover,
   .button2:hover {
     transform: scale(1.05);
     background: linear-gradient(to right, #00c6ff, #0072ff);
   }
+
+   .section-3 button:hover{
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #ffb8f5, #ff6ec7);
+   }
 
   .git-in {
     display: flex;
@@ -512,8 +530,8 @@ transition: transform 0.7s ease-in-out;
   }
 
   .download {
-    width: 60%;
-    height: auto;
+    width: 50vh;
+    height: 20vh;
     margin: 20px auto;
     display: block;
     border-radius: 50%;
@@ -523,7 +541,7 @@ transition: transform 0.7s ease-in-out;
     margin-top: 50px;
     padding: 1rem;
     text-align: center;
-    font-size: 14px;
+    font-size: 23px;
     background: linear-gradient(to top, #0a0f2c, #1f1c2c);
     color: #ccc;
     display: flex;
@@ -534,7 +552,6 @@ transition: transform 0.7s ease-in-out;
 
   .logo-img {
     width: 50%;
- 
     margin-top: 10px;
   
 }

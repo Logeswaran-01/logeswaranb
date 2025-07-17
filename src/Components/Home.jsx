@@ -2,6 +2,7 @@ import React,{useEffect, useRef} from 'react';
 import './Home.css';
 import AOS from 'aos'
 import 'aos/dist/aos.css';
+import { Link } from "react-router-dom";
 import Typed from 'typed.js';
 import download from './download.jpg'
 import logo from './logo.jpg'
@@ -132,7 +133,7 @@ function Home() {
             <p>You've made it to the end of my homepage — but the real story starts now! 🎉🚀I’m Logeswaran — a passionate tech explorer, creative thinker, and lifelong learner 💻✨From building web apps to solving real-world problems, I love turning ideas into reality 🌍💡Curious to know what drives me, what I’ve built, and what’s next? Tap below and let’s go! 🔍🔥</p>
             
           </div>
-          <a href="/about"><button >More About Me</button></a>
+          <button Link to='/about'>More About Me</button>
         </div>
         </div>
         

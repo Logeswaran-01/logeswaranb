@@ -16,8 +16,9 @@ function App(){
   return(
          <>
           <Navbar />
+          <Scrolltop/>
           <Routes>
-            <Scrolltop/>
+            
             < Route path='/' element={<Home/>}/>
             < Route path='/about' element={<About/>}/>
             < Route path='/skills' element={<Skills/>}/>

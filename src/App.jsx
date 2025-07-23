@@ -3,6 +3,7 @@ import { Routes,Route,Link} from 'react-router-dom'
 
 import './App.css'
 import Navbar from './Components/Navbar.jsx'
+import Scrolltop from './Components/Scrolltop.jsx'
 import Home from './Components/Home.jsx'
 import About from './Components/About.jsx'
 import Skills from './Components/Skills.jsx'
@@ -16,6 +17,7 @@ function App(){
          <>
           <Navbar />
           <Routes>
+            <Scrolltop/>
             < Route path='/' element={<Home/>}/>
             < Route path='/about' element={<About/>}/>
             < Route path='/skills' element={<Skills/>}/>

@@ -15,7 +15,7 @@ function Home() {
   const typedRef = useRef(null);
 
    const scroll_btn = () => {
-    scrollview.current?.scrollIntoView({ behavior: 'smooth',
+    scrollview.current?.scrollIntoView({ behavior: 'smooth',    
   block: 'center',
   inline: 'nearest'})
    }

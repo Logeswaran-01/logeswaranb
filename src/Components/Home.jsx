@@ -106,7 +106,7 @@ function Home() {
          <div className='resume-in'>
              <div className='resume'>
             <a href="https://res.cloudinary.com/dbrmvywb0/image/upload/v1752400551/pybep1vjj8wcfxle7fbt.pdf"><button className='button1'>Resume</button></a>
-            <a href="https://logeswaran-tau.vercel.app/#/contact"><button className='button2' >Contact Me</button></a>
+           <Link to="https://logeswaranb.vercel.app/#/contact"><button className='button2' >Contact Me</button></Link>
          </div>
          
          <div className='git-in'>
@@ -133,7 +133,7 @@ function Home() {
             <p>You've made it to the end of my homepage — but the real story starts now! 🎉🚀I’m Logeswaran — a passionate tech explorer, creative thinker, and lifelong learner 💻✨From building web apps to solving real-world problems, I love turning ideas into reality 🌍💡Curious to know what drives me, what I’ve built, and what’s next? Tap below and let’s go! 🔍🔥</p>
             
           </div>
-          <a href="https://logeswaran-tau.vercel.app/#/about"><button>More About Me</button></a>
+          <Link to="https://logeswaranb.vercel.app/#/about"><button>More About Me</button></Link>
         </div>
         </div>
         

@@ -381,7 +381,7 @@ padding-bottom: 1rem;
 .foo{
   background: linear-gradient(to top, #0a0f2c, #1f1c2c);
   color: #ccc;
-  margin-top: 20rem;
+  margin-top: 10px;
   text-align: center;
   font-family: 'Poppins', sans-serif;
   width: 100%;

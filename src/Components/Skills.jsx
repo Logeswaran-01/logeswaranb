@@ -105,6 +105,7 @@ function Skills(){
         <div className='row language'>
             <div className='card col-lg-3 col-sm-1'data-aos='flip-right' data-aos-easing='ease-in-out' data-aos-mirror = 'true' data-aos-delay='1000'>
               <h3 className="card-title two ">Flask</h3>
+              <h3 className="card-title two ">Express Js</h3>
             </div>
            
             

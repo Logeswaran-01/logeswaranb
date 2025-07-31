@@ -2,7 +2,6 @@ import React,{useEffect, useRef} from 'react';
 import './Home.css';
 import AOS from 'aos'
 import 'aos/dist/aos.css';
-import { Link } from "react-router-dom";
 import Typed from 'typed.js';
 import download from './download.jpg'
 import logo from './logo.jpg'
